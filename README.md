@@ -4,7 +4,7 @@
 
 # 🌐 Barkatullah University Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://kaleidoscopic-treacle-859172.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://kaleidoscopic-treacle-859172.netlify.app/)]
 
 A responsive and informative website built for **Barkatullah University, Bhopal**. This project serves as a comprehensive digital portal for students, faculty, and stakeholders to access institutional resources, academic details, facilities, and quality assurance documentation (IQAC, NIRF, AISHE).
 
@@ -152,4 +152,4 @@ Let me know if you'd like to add a project logo, animated demo GIF, or visual wa
 
 ---
 
-Would you like me to directly generate the final `README.md` file for download or create badges/visuals for the repo?
+
