@@ -148,7 +148,7 @@ All rights are reserved by **Barkatullah University, Bhopal**.
 
 ---
 
-Let me know if you'd like to add a project logo, animated demo GIF, or visual walkthroughs!
+
 
 ---
 
