@@ -61,7 +61,7 @@ This project is a website for **Barkatullah University**, Bhopal, showcasing the
 - Integrate **database support** for dynamic content management.
 
 ## Contributors
-- **Hemant Mishra** (Primary Developer)
+- **Hemant Mishra** 
 - **Jitendra**
 - **Geeks of Gurukul** (Organization)
 
