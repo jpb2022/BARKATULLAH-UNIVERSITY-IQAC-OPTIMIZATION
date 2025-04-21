@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Barkatullah University</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(white 50%, #ff9933 50%);
+    }
+
+    header {
+      background-color: #ff9933;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .dropdown-container {
+      display: flex;
+      justify-content: center;
+      background-color: #fff;
+      padding: 1rem;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .dropdown-button {
+      padding: 0.7rem 1.5rem;
+      border: none;
+      background-color: #ff9933;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .dropdown-button:hover {
+      background-color: #e67e22;
+    }
+
+    .content {
+      display: none;
+      max-width: 800px;
+      margin: 2rem auto;
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .content img {
+      width: 150px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    .active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Us - Barkatullah University, Bhopal</h1>
+  </header>
+
+  <div class="dropdown-container">
+    <button class="dropdown-button" onclick="showSection('vc')">VC MESSAGE</button>
+    <button class="dropdown-button" onclick="showSection('about')">ABOUT UNIVERSITY</button>
+    <button class="dropdown-button" onclick="showSection('vision')">VISION</button>
+  </div>
+
+  <div id="vc" class="content">
+    <img src="IMAGE/Vice_cancellor.jpg" alt="Vice Chancellor">
+    <h2>Vice Chancellor's Message</h2>
+    <p>Welcome to Barkatullah University, Bhopal — a beacon of knowledge, innovation, and excellence in Central India.</p>
+    <p>At Barkatullah University, we are committed to fostering an environment of academic excellence, research innovation, and holistic development. With a legacy of empowering young minds through quality education and a forward-looking vision, our university continuously adapts to the changing educational and technological landscape.</p>
+    <p>We strive to create not just graduates, but responsible global citizens equipped with knowledge, ethics, and the courage to lead. Through our dedicated faculty, modern infrastructure, and emphasis on interdisciplinary learning, we aim to nurture future leaders and changemakers.</p>
+    <p>I invite students, researchers, and partners to explore the opportunities that Barkatullah University offers and join us in our mission to build a better, enlightened society.</p>
+    <p><strong>Warm regards,<br>
+    Prof. Professor Suresh Kumar Jain <br>
+    Vice Chancellor<br>
+    Barkatullah University, Bhopal</strong></p>
+  </div>
+
+  <div id="about" class="content">
+    <h2>About the University</h2>
+    <p>Barkatullah University, established in 1970 in Bhopal, is one of the premier institutions in Madhya Pradesh. The university is named after Prof. Barkatullah, a great freedom fighter and revolutionary.</p>
+    <p>The university offers a wide range of undergraduate, postgraduate, and doctoral programs in various disciplines, including science, arts, commerce, management, law, and technology. With a strong emphasis on interdisciplinary learning and research, it serves as a hub of academic excellence in Central India.</p>
+    <p>It caters to the needs of thousands of students and strives to provide high-quality education through its affiliated colleges and departments.</p>
+  </div>
+
+  <div id="vision" class="content">
+    <h2>Our Vision</h2>
+    <p>To emerge as a center of academic excellence and research that nurtures leadership, fosters innovation, and contributes meaningfully to society.</p>
+    <p>We envision Barkatullah University as a place where knowledge meets character, education meets innovation, and tradition blends with technology to shape a better future.</p>
+    <p>We are dedicated to empowering our students and faculty to engage with real-world challenges through creativity, critical thinking, and collaboration.</p>
+  </div>
+
+  <script>
+    function showSection(id) {
+      const sections = document.querySelectorAll('.content');
+      sections.forEach(section => section.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+
+    // Optional: Open VC Message by default
+    showSection('vc');
+  </script>
+</body>
+</html>
+
+
+
+
+
+

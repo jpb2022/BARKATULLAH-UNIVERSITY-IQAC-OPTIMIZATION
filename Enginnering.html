@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barkatullah Vishwavidyalaya - Engineering Departments</title>
+    <link rel="shortcut icon" href="image/Barkatullah_University_logo.png" type="image/svg+xml">
+    
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #E29850;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Engineering Departments Section */
+        .engineering-departments {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .engineering-departments h2 {
+            text-align: center;
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .section h3 {
+            color: #E29850;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            font-size: 16px;
+            padding: 5px 0;
+            color: #444;
+        }
+
+        button {
+            background-color: #E29850;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #d18640;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .engineering-departments {
+                padding: 10px;
+            }
+
+            .section {
+                padding: 15px;
+            }
+
+            .section h3 {
+                font-size: 20px;
+            }
+
+            .section p {
+                font-size: 14px;
+            }
+
+            button {
+                font-size: 14px;
+                padding: 8px 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        Barkatullah Vishwavidyalaya - Engineering Departments
+    </header>
+
+    <section class="engineering-departments">
+        <h2>Engineering Departments</h2>
+
+        <!-- Computer Science & Engineering -->
+        <div class="section">
+            <h3>Computer Science & Engineering</h3>
+            <p>Focused on AI, Machine Learning, and Cybersecurity, this department excels in innovation and research.</p>
+            <ul>
+                <li><strong>Key Areas:</strong> AI, Data Science, IoT, Cloud Computing</li>
+                <li><strong>Research Labs:</strong> AI Lab, Robotics Lab</li>
+                <li><strong>Industry Tie-ups:</strong> Google, Microsoft</li>
+            </ul>
+            <button onclick="openFile('CSE_Report')">Download Evaluative Report</button>
+        </div>
+
+        <!-- Electronics & Communication Engineering -->
+        <div class="section">
+            <h3>Electronics & Communication Engineering</h3>
+            <p>Advanced studies in embedded systems, VLSI, and wireless communication.</p>
+            <ul>
+                <li><strong>Key Areas:</strong> Wireless Networks, Signal Processing</li>
+                <li><strong>Research Labs:</strong> Embedded Systems Lab</li>
+                <li><strong>Industry Tie-ups:</strong> Intel, Qualcomm</li>
+            </ul>
+            <button onclick="openFile('ECE_Report')">Download Evaluative Report</button>
+        </div>
+
+        <!-- Mechanical Engineering -->
+        <div class="section">
+            <h3>Mechanical Engineering</h3>
+            <p>Research in robotics, fluid mechanics, and automotive engineering.</p>
+            <ul>
+                <li><strong>Key Areas:</strong> Robotics, Fluid Mechanics</li>
+                <li><strong>Research Labs:</strong> CAD/CAM Lab</li>
+                <li><strong>Industry Tie-ups:</strong> Tata Motors, Bosch</li>
+            </ul>
+            <button onclick="openFile('ME_Report')">Download Evaluative Report</button>
+        </div>
+
+        <!-- Civil Engineering -->
+        <div class="section">
+            <h3>Civil Engineering</h3>
+            <p>Smart cities, sustainable construction, and transportation engineering.</p>
+            <ul>
+                <li><strong>Key Areas:</strong> Structural Engineering, Urban Planning</li>
+                <li><strong>Research Labs:</strong> Concrete Technology Lab</li>
+                <li><strong>Industry Tie-ups:</strong> L&T, PWD</li>
+            </ul>
+            <button onclick="openFile('CE_Report')">Download Evaluative Report</button>
+        </div>
+
+        <!-- Electrical Engineering -->
+        <div class="section">
+            <h3>Electrical Engineering</h3>
+            <p>Focused on renewable energy, smart grids, and power systems.</p>
+            <ul>
+                <li><strong>Key Areas:</strong> Power Systems, Renewable Energy</li>
+                <li><strong>Research Labs:</strong> High Voltage Lab</li>
+                <li><strong>Industry Tie-ups:</strong> BHEL, NTPC</li>
+            </ul>
+            <button onclick="openFile('EE_Report')">Download Evaluative Report</button>
+        </div>
+
+        <!-- Chemical Engineering -->
+        <div class="section">
+            <h3>Chemical Engineering</h3>
+            <p>Research in process engineering, nanotechnology, and sustainable solutions.</p>
+            <ul>
+                <li><strong>Key Areas:</strong> Process Engineering, Polymers</li>
+                <li><strong>Research Labs:</strong> Nano-Tech Lab</li>
+                <li><strong>Industry Tie-ups:</strong> Reliance, IOCL</li>
+            </ul>
+            <button onclick="openFile('ChemE_Report')">Download Evaluative Report</button>
+        </div>
+    </section>
+
+    <script>
+        function openFile(fileType) {
+            alert("Downloading " + fileType + " document.");
+        }
+    </script>
+
+</body>
+</html>
