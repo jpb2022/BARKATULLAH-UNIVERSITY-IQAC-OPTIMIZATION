@@ -8,7 +8,7 @@ Here’s a revised and more polished version of your GitHub `README.md` file for
 
 A responsive and comprehensive website developed for **Barkatullah University, Bhopal**. This project serves as a digital portal for students, faculty, and stakeholders to access academic information, institutional resources, and quality assurance documentation such as IQAC, NIRF, and AISHE.
 
-🔗 **Live Demo:** [Visit the Website](https://kaleidoscopic-treacle-859172.netlify.app/)
+🔗 **Live Demo:** [Visit the Website](https://imaginative-cupcake-cbfb0b.netlify.app/#)
 
 ---
 
